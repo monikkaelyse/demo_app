@@ -1,4 +1,6 @@
 DemoApp::Application.routes.draw do
+  root 'welcome#index'
+  
   resources :microposts
 
   resources :users
