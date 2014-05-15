@@ -1,4 +1,7 @@
 DemoApp::Application.routes.draw do
+  get "ccsf_rails/index"
+  get "ccsf_rails/links"
+  get "ccsf_rails/about"
   root 'welcome#index'
   
   resources :microposts
