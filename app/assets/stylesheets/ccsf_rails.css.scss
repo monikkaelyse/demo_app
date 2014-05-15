@@ -5,8 +5,16 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
-body {
+.index {
   font: 100% $font-stack;
   color: $primary-color;
-  background-color: #efefef;
+  background-color: #FFCCCC;
+}
+
+.links {
+	background-color: #CCFFFF;
+}
+
+.about {
+	background-color: #99FFCC;
 }
